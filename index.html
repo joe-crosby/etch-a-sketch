@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/site.css" />
+    <script src="js/site.js" defer></script>
+    <title>Etch A Sketch</title>
+  </head>
+  <body>
+    <div class="options">
+      <div class="gridColorPicker inline-block">
+        <label for="gridColorPicker">Current Grid Color</label>
+        <input id="gridColorPicker" type="color" name="gridColorPicker" value="#FFFFFF">
+      </div>
+
+      <div class="colorPicker inline-block">
+        <label for="colorPicker">Current Color</label>
+        <input id="colorPicker" type="color" name="colorPicker" value="#000000">
+      </div>
+
+      <button type="button" name="button" onclick="clearScreen()">Clear Screen</button>
+      <button type="button" name="button" onclick="regenerate()">New Grid</button>
+    </div>
+    <div class="main">
+
+    </div>
+  </body>
+</html>
